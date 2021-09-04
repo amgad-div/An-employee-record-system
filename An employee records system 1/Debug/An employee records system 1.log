@@ -1,0 +1,21 @@
+﻿Build started 9/4/2021 5:24:41 PM.
+     1>Project "C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\An employee records system 1\An employee records system 1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\An employee records system 1.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\Debug\An employee records system 1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\An employee records system 1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\Debug\An employee records system 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\Debug\An employee records system 1.lib" /MACHINE:X86 Debug\Database.obj
+         Debug\DatebaseTest.obj
+         Debug\Employee.obj
+         Debug\EmployeeTest.obj
+         Debug\UserInterface.obj
+     1>EmployeeTest.obj : error LNK2005: "int __cdecl Records::main(int,char * *)" (?main@Records@@YAHHPAPAD@Z) already defined in DatebaseTest.obj
+     1>DatebaseTest.obj : error LNK2019: unresolved external symbol "public: void __thiscall Records::Database::displayCurrent(void)" (?displayCurrent@Database@Records@@QAEXXZ) referenced in function "int __cdecl Records::main(int,char * *)" (?main@Records@@YAHHPAPAD@Z)
+     1>UserInterface.obj : error LNK2001: unresolved external symbol "public: void __thiscall Records::Database::displayCurrent(void)" (?displayCurrent@Database@Records@@QAEXXZ)
+     1>C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\Debug\An employee records system 1.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\hacko\documents\visual studio 2010\Projects\An employee records system 1\An employee records system 1\An employee records system 1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30
